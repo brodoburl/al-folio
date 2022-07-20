@@ -3,11 +3,11 @@
 # -----------------------------------------------------------------------------
 
 title: Brodie Burl Pomper # the website title (if blank, full name will be used instead)
-first_name: You
-middle_name: R.
-last_name: Name
+first_name: Brodie
+middle_name: Burl
+last_name: Pomper
 email: brodoburl@gmail.com
-description: > # the ">" symbol means to ignore newlines until "footer_text:"
+description:  # the ">" symbol means to ignore newlines until "footer_text:"
   Trained in Agroecology at Penn State. Working in Horticulture but I am compelled to find work implementing Agroecology on a larger and larger scale.
 footer_text: >
   Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
@@ -55,7 +55,7 @@ og_image: # The site-wide (default for all links) Open Graph preview image
 # Social integration
 # -----------------------------------------------------------------------------
 
-github_username: # your GitHub user name
+github_username:brodoburl # your GitHub user name
 gitlab_username: # your GitLab user name
 twitter_username: # your Twitter handle
 linkedin_username: # your LinkedIn user name
@@ -89,9 +89,9 @@ bing_site_verification:  # out your bing-site-verification ID (Bing Webmaster)
 # Blog
 # -----------------------------------------------------------------------------
 
-blog_name: al-folio # blog_name will be displayed in your blog page
-blog_nav_title: blog # your blog must have a title for it to be displayed in the nav bar
-blog_description: a simple whitespace theme for academics
+blog_name: BrodoBurl # blog_name will be displayed in your blog page
+blog_nav_title: BrodoBurl Blog # your blog must have a title for it to be displayed in the nav bar
+blog_description: Erstwhile Agroecologist in search of meaningful employment
 permalink: /blog/:year/:title/
 
 # Pagination
@@ -99,15 +99,15 @@ pagination:
   enabled: true
 
 # Comments
-disqus_shortname: al-folio # put your disqus shortname
+disqus_shortname: brodoburl # put your disqus shortname
 # https://help.disqus.com/en/articles/1717111-what-s-a-shortname
 
 # External sources.
 # If you have blog posts published on medium.com or other exteranl sources,
 # you can display them in your blog by adding a link to the RSS feed.
-external_sources:
-  - name: medium.com
-    rss_url: https://medium.com/@al-folio/feed
+#external_sources:
+ # - name: medium.com
+  #  rss_url: https://medium.com/@al-folio/feed
 
 # -----------------------------------------------------------------------------
 # Collections
@@ -159,6 +159,7 @@ keep_files:
 
 # Plug-ins
 plugins:
+  - jekyll-admin
   - jekyll-archives
   - jekyll-diagrams
   - jekyll-email-protect
